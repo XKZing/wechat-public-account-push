@@ -21,20 +21,20 @@ const USER_CONFIG = {
       // 想要发送的人的名字
       name: '小可宝宝',
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-//       id: 'o8GRF6sV7FmP0Wm5GZ9ELVsO3-YY',
+      id: 'o8GRF6sV7FmP0Wm5GZ9ELVsO3-YY',
       id: 'o8GRF6gNVmE1iZ9sIBiIZkOTY83U',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
-      useTemplateId: 'oVV-8KXn4JdLkKrvTrmQ3SfF0dxQWW_K5C_xP9Qn_0o',
+      useTemplateId: 'pPwb_Z7Yy6MNXidAnIMsuNekuTlcPgt8kfqFLz2svfo',
       // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
       horoscopeDate: '11-04',
       festivals: [
         // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
         {
-          type: '*生日', name: '小可宝宝阴历', year: '2001', date: '09-19',
+          type: '*生日', name: '宝宝阴历', year: '2001', date: '09-19',
         },
         // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
         {
-          type: '生日', name: '小可宝宝阳历', year: '2001', date: '11-04',
+          type: '生日', name: '宝宝阳历', year: '2001', date: '11-04',
         },
         {
           type: '节日', name: '我们的相恋纪念日', year: '2021', date: '06-16',
@@ -52,13 +52,13 @@ const USER_CONFIG = {
 
 
   // 【推送完成提醒】模板id, 用来看自己有没有发送成功的那个模板
-  CALLBACK_TEMPLATE_ID: 'JjC-cCzclMI-lgplrzr-XukThue1P-fOKFp1tArtqjg',
+  CALLBACK_TEMPLATE_ID: '',
 
   CALLBACK_USERS: [
     {
       name: '自己',
       // 使用微信测试号：自己的微信id，扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: 'o8GRF6gNVmE1iZ9sIBiIZkOTY83U',
+      id: '',
     }
   ],
 
